@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+mkdir ~/{ops,bin}
+
+rsync -av ~/env/bin/ ~/bin/
+
+~/bin/bootstrap
+
